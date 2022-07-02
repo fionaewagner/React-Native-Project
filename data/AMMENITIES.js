@@ -1,10 +1,13 @@
-const kingRoom = require('../imgs/hotel-bed-king.jpg')
+
+const pool = require('../imgs/hotel-pool-two.jpeg')
+const gym = require('../imgs/hotel-gym.jpeg')
+const breakfast = require('../imgs/hotel-breakfast.jpeg')
 
 export const AMMENITIES = [
     {
         id:0,
         name: 'Luxury Pool & Spa',
-        image: kingRoom,
+        image: pool,
         description: `Make your getaway truly relaxing with our onsite pool 
         and spa. This luxurious space features a
         balmy heated indoor pool and beautiful outdoor garden veiws 
@@ -18,7 +21,7 @@ export const AMMENITIES = [
     {
         id:1,
         name: 'Fitness Center',
-        image: kingRoom,
+        image: gym,
         description: `No excuses to miss a workout with our complimentary Fitness Center. 
         We offer a wide variety of Free-Weights, two high-end Treadmills,
          an Elliptical Trainer and a Stationary Bike. Excercise bands and yoga mats are also available.`,
@@ -27,7 +30,7 @@ export const AMMENITIES = [
     {
         id:2,
         name: 'Conventional Breakfast',
-        image: kingRoom,
+        image: breakfast,
         description: `Free, hot breakast is served every morning at Eight
         AM in our spacious dining area complete with 
         comfortable seating and multiple HDTVs for your 

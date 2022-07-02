@@ -1,5 +1,7 @@
 
 const kingRoom = require('../imgs/hotel-bed-king.jpg')
+const queensRoom = require('../imgs/hotel-bed-queens.jpg')
+const masterSuite = require('../imgs/hotel-bed-suite.jpg')
 
 
 export const ROOMS = [
@@ -19,7 +21,7 @@ export const ROOMS = [
     {
         id: 1,
         name: "Queens Suite",
-        image:  kingRoom,
+        image:  queensRoom,
         description: `Our Deluxe Double Queen Rooms feature two Queen sized beds and bathroom
         with a shower/bathtub combo. Complimentary wi-fi and cable is provided.
         Rooms with East and West facing views are available.`,
@@ -33,7 +35,7 @@ export const ROOMS = [
     {
         id: 2,
         name: "Master Suite",
-        image:  kingRoom,
+        image:  masterSuite,
         description: `Our Master Suite Rooms feature a single king sized bed, 
         bathroom with bath/shower combo, kitchenette with mini-fridge 
         and induction stovetop, and a comfortable living area. 
