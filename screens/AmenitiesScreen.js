@@ -3,7 +3,6 @@ import { Image, StyleSheet } from "react-native";
 import { FlatList } from "react-native";
 import { Card } from "react-native-elements";
 import { AMMENITIES } from "../data/AMMENITIES";
-import RenderObj from "../features/RenderObj";
 const AmenitiesScreen=()=>{
     return (
         <View style={{ flex: 1 }}>

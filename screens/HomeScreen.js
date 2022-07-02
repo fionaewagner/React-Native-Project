@@ -1,11 +1,12 @@
-import { Image, View } from "react-native"
+import { Image, View, ScrollView } from "react-native"
 import { Text } from "react-native";
 import { Card } from "react-native-elements";
 const HomeScreen=()=>{
     return (
         
-        <View style={{ flex: 1 }}>
-            <Image source={require('../imgs/hotel-bed-king.jpg')}/>
+        <ScrollView style={{ flex: 1 }}>
+            <Image source={require('../imgs/hotel-main-pic.jpg')}
+             style={{width:400, height:400}}/>
             <Card>
             <Card.Title>Welcome to... </Card.Title>
             <Card.Title>Green Palms Hotel</Card.Title>
@@ -21,7 +22,7 @@ const HomeScreen=()=>{
                 </Text>
             </Card>
             
-        </View>
+        </ScrollView>
     );
 }
 

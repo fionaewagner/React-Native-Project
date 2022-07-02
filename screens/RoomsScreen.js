@@ -3,7 +3,7 @@ import { View, Text } from "react-native"
 import { FlatList } from "react-native";
 import { Card } from "react-native-elements";
 import { ROOMS } from "../data/ROOMS";
-import RenderObj from "../features/RenderObj";
+
 
 const RoomsScreen=()=>{
     const rooms = ROOMS

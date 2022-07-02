@@ -66,8 +66,8 @@ const ReservationScreen = () => {
             <View style={styles.formRow}>
             <Pressable style={{ backgroundColor:
                             room === "King Room"
-                                ? "#D1D1D1 "
-                                : "#C4C4C4 ", 
+                                ? "black"
+                                : "gray", 
                                 paddingVertical: 10,
                                 paddingHorizontal: 5,
                                 borderRadius: 4,
@@ -79,29 +79,30 @@ const ReservationScreen = () => {
 
             <Pressable style={{ backgroundColor:
                             room === "Queens Room"
-                                ? "#D1D1D1 "
-                                : "#C4C4C4 ",
+                                ? "black"
+                                : "gray", 
                                 paddingVertical: 10,
                                 paddingHorizontal: 5,
                                 borderRadius: 4,
                                 elevation: 3,
                                marginRight:10}} 
-                                onPress={()=>setRoom("Queens Room")}>
+                                onPress={()=> setRoom("Queens Room")}>
                 <Text style={styles.text}>Queens Suite</Text>
             </Pressable>
 
             <Pressable style={{ backgroundColor:
                             room === "Master Suite"
-                                ? "#D1D1D1 "
-                                : "#C4C4C4 ",
+                                ? "black"
+                                : "gray", 
                                 paddingVertical: 10,
                                 paddingHorizontal: 5,
                                 borderRadius: 4,
                                 elevation: 3,
                                marginRight:10}} 
-                                onPress={()=>setRoom("Master Suite")}>
+                                onPress={()=> setRoom("Master Suite")}>
                 <Text style={styles.text}>Master Suite</Text>
             </Pressable>
+            
                 
             </View>
             <View style={styles.formRow}>
